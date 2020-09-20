@@ -8,6 +8,7 @@ const PageHeader = styled(Header)`
   ${(props) =>
     props.fixed &&
     css`
+      z-index: 1;
       position: fixed;
     `}
 `;
