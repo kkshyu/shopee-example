@@ -1,7 +1,284 @@
 import React from "react";
+import DefaultLayout from "../components/layout/DefaultLayout";
 
 const ProductPage = () => {
-  return <div>ProductPage</div>;
+  return (
+    <DefaultLayout>
+      ProductPage
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
+        blanditiis quaerat explicabo magni nisi fuga in qui quo laboriosam
+        optio. Enim minima dolorem asperiores facilis nisi omnis repellat
+        officiis fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Dolorem, fugiat ab facere commodi incidunt nisi! Molestias, perferendis
+        nesciunt. Sunt molestiae molestias eaque neque quas odio deleniti?
+        Veniam voluptas nesciunt ducimus! Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Quisquam officia nulla dolore cum facere delectus consequatur doloribus
+        praesentium expedita temporibus vel voluptatibus, error laboriosam ut
+        quis similique voluptates culpa. Facere. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Quisquam officia nulla dolore cum facere
+        delectus consequatur doloribus praesentium expedita temporibus vel
+        voluptatibus, error laboriosam ut quis similique voluptates culpa.
+        Facere.
+      </p>
+    </DefaultLayout>
+  );
 };
 
 export default ProductPage;
