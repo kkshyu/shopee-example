@@ -6,6 +6,8 @@ import CheckoutPage from "./pages/CheckoutPage";
 import ProductCollectionPage from "./pages/ProductCollectionPage";
 import ProductPage from "./pages/ProductPage";
 
+import "antd/dist/antd.css";
+
 const App = () => {
   return (
     <BrowserRouter>
