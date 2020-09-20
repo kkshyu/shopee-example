@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ClearFix = styled.div`
-  height: ${(props) => props.height || "200px"};
+  height: ${(props) => props.height || "150px"};
 `;
 
 export default ClearFix;
