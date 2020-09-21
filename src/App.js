@@ -7,10 +7,12 @@ import ProductCollectionPage from "./pages/ProductCollectionPage";
 import ProductPage from "./pages/ProductPage";
 
 import "antd/dist/antd.css";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Switch>
         <Route path="/" exact>
           <Redirect to="/mall" />
