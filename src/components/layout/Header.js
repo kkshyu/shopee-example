@@ -54,7 +54,7 @@ const Header = ({ className }) => {
         </StyledHeaderSection>
         <StyledHeaderSection>
           <Link to="/">
-            <img src={Logo} alt="logo" height={48}></img>
+            <img src={Logo} alt="logo" style={{ height: "48px" }}></img>
           </Link>
           <Box>
             <Input.Search

@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import ClearFix from "../components/common/ClearFix";
+import Image from "../components/common/Image";
 import DefaultLayout from "../components/layout/DefaultLayout";
 import ProductCard from "../components/product/ProductCard";
 import Banner1 from "../images/banner/banner1.jpg";
@@ -64,15 +65,51 @@ const ProductContainer = styled.div`
     width: 20%;
   }
 `;
-const Image = styled.div`
-  width: 100%;
-  height: ${(props) => props.height}px;
-  background-image: ${(props) => `url(${props.url})`};
-  background-position: center;
-  background-size: cover;
-`;
 
 const HomePage = () => {
+  const products = [
+    {
+      id: "p001",
+      title: "測試產品1",
+      salePrices: [100, 200],
+      listPrices: [200, 300],
+      coverUrl:
+        "https://images.unsplash.com/photo-1602526429399-f5955066ffe2?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2195&q=80",
+    },
+    {
+      id: "p002",
+      title: "測試產品2",
+      salePrices: [100, 200],
+      listPrices: [200, 300],
+      coverUrl:
+        "https://images.unsplash.com/photo-1606895180387-9c1b6ed7cd0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1287&q=80",
+    },
+    {
+      id: "p003",
+      title: "測試產品3",
+      salePrices: [100, 200],
+      listPrices: [200, 300],
+      coverUrl:
+        "https://images.unsplash.com/photo-1602526429399-f5955066ffe2?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2195&q=80",
+    },
+    {
+      id: "p004",
+      title: "測試產品4",
+      salePrices: [100, 200],
+      listPrices: [200, 300],
+      coverUrl:
+        "https://images.unsplash.com/photo-1602526429399-f5955066ffe2?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2195&q=80",
+    },
+    {
+      id: "p005",
+      title: "測試產品5",
+      salePrices: [100, 200],
+      listPrices: [200, 300],
+      coverUrl:
+        "https://images.unsplash.com/photo-1602526429399-f5955066ffe2?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2195&q=80",
+    },
+  ];
+
   return (
     <DefaultLayout fixedHeader>
       <ClearFix />
@@ -114,105 +151,20 @@ const HomePage = () => {
         </Link>
       </CustomerContainer>
       <ProductCollectionContainer>
-        <ProductContainer>
-          <Link to="/p001">
-            <ProductCard
-              title="foo"
-              coverUrl={Banner1}
-              salePrices={[100, 200]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
-        <ProductContainer>
-          <Link to="/p002">
-            <ProductCard
-              title="banner2"
-              coverUrl={Banner2}
-              salePrices={[100, 200]}
-              listPrices={[200, 299]}
-            />
-          </Link>
-        </ProductContainer>
+        {products.map((product) => {
+          return (
+            <ProductContainer key={product.id}>
+              <Link to={`/${product.id}`}>
+                <ProductCard
+                  title={product.title}
+                  coverUrl={product.coverUrl}
+                  salePrices={product.salePrices}
+                  listPrices={product.listPrices}
+                />
+              </Link>
+            </ProductContainer>
+          );
+        })}
       </ProductCollectionContainer>
     </DefaultLayout>
   );
