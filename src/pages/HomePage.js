@@ -1,9 +1,11 @@
 import { Carousel } from "antd";
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import AuthContext from "../components/auth/AuthContext";
 import ClearFix from "../components/common/ClearFix";
 import Image from "../components/common/Image";
+import PopupModal from "../components/common/PopupModal";
 import DefaultLayout from "../components/layout/DefaultLayout";
 import ProductCard from "../components/product/ProductCard";
 import Banner1 from "../images/banner/banner1.jpg";
@@ -109,10 +111,12 @@ const HomePage = () => {
         "https://images.unsplash.com/photo-1602526429399-f5955066ffe2?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2195&q=80",
     },
   ];
-
+  const { isAuthenticated } = useContext(AuthContext);
   return (
     <DefaultLayout fixedHeader>
+      <PopupModal />
       <ClearFix />
+      {isAuthenticated && <h1>歡迎回來</h1>}
       <BannerBox>
         <BannerCarouselContainer>
           <Carousel autoplay>

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 import Container from "../common/Container";
 import Logo from "../../images/logo.png";
 import { Input } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import AuthContext from "../auth/AuthContext";
 
 const StyledHeader = styled.header`
   background-color: #d1011c;
@@ -36,6 +37,7 @@ const Box = styled.div`
   align-items: center;
 `;
 const Header = ({ className }) => {
+  const { isAuthenticated, logout } = useContext(AuthContext);
   return (
     <StyledHeader className={className}>
       <Container>
@@ -49,7 +51,14 @@ const Header = ({ className }) => {
           <Toolbar>
             <a href="#!">通知</a>
             <a href="#!">幫助中心</a>
-            <a href="#!">帳號</a>
+            {isAuthenticated ? (
+              <div>
+                <a href="#!">kevin</a>
+                <span onClick={() => logout()}>登出</span>
+              </div>
+            ) : (
+              <Link to="/login">登入/註冊</Link>
+            )}
           </Toolbar>
         </StyledHeaderSection>
         <StyledHeaderSection>

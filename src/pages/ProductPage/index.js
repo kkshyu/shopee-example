@@ -5,6 +5,7 @@ import styled from "styled-components";
 import DefaultLayout from "../../components/layout/DefaultLayout";
 import ProductAbstractCard from "./ProductAbstractCard";
 import ProductAddonCard from "./ProductAddonCard";
+import ProductDescriptionCard from "./ProductDescriptionCard";
 
 const StyledContent = styled.div`
   padding: 32px 0;
@@ -15,8 +16,11 @@ const ProductPage = () => {
 
   const product = {
     name: productName,
+    spec: "iphone12",
     listPrices: [100, 200],
     salePrices: [50, 80],
+    description:
+      '<dd id="Intro0"><div class="intro_box"><span class="tc"><div class="tl"><p><img src="https://a.ecimg.tw/img/projects/personal/v0/upload_file/US00017016/haylou_01.jpg" alt="" width="900" height="12156"></p></div></span></div></dd>',
   };
 
   return (
@@ -30,18 +34,20 @@ const ProductPage = () => {
           />
         </div>
         <div className="mb-3">
-          <ProductAddonCard product={{
-              title: '手機殼',
-              spec: 'iphone12',
-              price: 12
-          }} />
+          <ProductAddonCard
+            product={{
+              title: product.name,
+              spec: product.spec,
+              price: product.listPrices[0],
+            }}
+          />
         </div>
         <div className="mb-3">
           <Card bordered>xxx</Card>
         </div>
         <div className="flex">
           <div className="mr-3" style={{ flex: 4 }}>
-            <Card bordered>xxx</Card>
+            <ProductDescriptionCard description={product.description} />
           </div>
           <Card bordered style={{ flex: 1 }}>
             xxx

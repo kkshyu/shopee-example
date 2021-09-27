@@ -3,6 +3,7 @@ import Header from "./Header";
 import styled, { css } from "styled-components";
 import Footer from "./Footer";
 import Container from "../common/Container";
+import PopupModal from "../common/PopupModal";
 
 const PageHeader = styled(Header)`
   ${(props) =>
